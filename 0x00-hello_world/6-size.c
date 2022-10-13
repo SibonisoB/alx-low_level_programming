@@ -21,7 +21,7 @@ int main(void)
 	printf("Size of a long int: %d byte(s)\n", long_int_s);
 	printf("Size of long long int: %d byte(s)\n", long_lo_s);
 	printf("Size of a float: %d byte(s)\n", float_s);
-	fprintf(stderr, "Warning: variables must be declared as integers\n");
+	printf(stderr, "6-size.c" * "Warning: variables must be declared as integers\n");
 
 	return (0);
 }
