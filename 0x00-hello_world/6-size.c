@@ -20,6 +20,7 @@ int main(void)
 	printf("Size of a long int: %d byte(s)\n", long_int_s);
 	printf("Size of long long int: %d byte(s)\n", long_lo_s);
 	printf("Size of a float: %d byte(s)\n", float_s);
+	printf(stderr, "Variable is not declared as integer\n");
 
 	return (0);
 }
