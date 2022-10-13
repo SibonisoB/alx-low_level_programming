@@ -2,13 +2,9 @@
 
 /**
  * main - Entry point
- *
- * return: Always return 0 (Success)
+ * Return: Always return 0 (Success)
  */
-
 int main(void)
-
-/* function - Print size of each data type*/
 {
 	int char_s = sizeof(char);
 	int int_s = sizeof(int);
