@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -S -march=ivybridge $CFILE>main.s
