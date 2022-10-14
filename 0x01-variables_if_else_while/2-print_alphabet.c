@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int alpha;
+	unsigned int alpha;
 
 	alpha = 'a';
 	while (alpha <= 'z')
