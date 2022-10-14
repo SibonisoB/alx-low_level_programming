@@ -9,8 +9,6 @@ int main(void)
 {
 	int alphABET;
 
-	int putchar(int alphABET);
-
 	alphABET = 'a';
 
 	while (alphABET <= 'z')
@@ -24,5 +22,6 @@ int main(void)
 		putchar(alphABET);
 		alphABET++;
 	}
+	putchar('\n');
 	return (0);
 }
