@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -march=ivybridge $CFILE>main.s
+gcc -S -march=ivybridge $CFILE>100-main.s
