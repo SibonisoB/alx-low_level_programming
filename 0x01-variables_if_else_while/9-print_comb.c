@@ -15,11 +15,14 @@ int main(void)
 	com = ',';
 	sp = ' ';
 
-	while(n <= '9')
+	while (n <= '9')
 	{
 		putchar(n);
-		putchar(com);
-		putchar(sp);
+		if (n <= '8')
+		{
+			putchar(com);
+			putchar(sp);
+		}
 		n++;
 	}
 	putchar('\n');
