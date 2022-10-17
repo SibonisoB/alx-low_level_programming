@@ -17,8 +17,12 @@ int main(void)
 			{
 				putchar(n1);
 				putchar(n2);
-				putchar(',');
-				putchar(' ');
+				if (n1 <= '7')
+				{
+					putchar(',');
+					putchar(' '); 		
+			
+				}
 			}
 			n2++;
 		}
