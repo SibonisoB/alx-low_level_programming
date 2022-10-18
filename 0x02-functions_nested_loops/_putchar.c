@@ -7,7 +7,10 @@
  */
 int main(void)
 {
-	_putchar();
+	int c;
+	c = 'c';
+
+	_putchar(c);
 	return (0);
 }
 
