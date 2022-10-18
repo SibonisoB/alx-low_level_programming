@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
 
 /**
  * _putchar - wries the character c to stdout
@@ -23,8 +22,8 @@ void print_alphabet(void)
 
 	while (alph <= 'z')
 	{
-		putchar(alph);
+		_putchar(alph);
 		alph++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
