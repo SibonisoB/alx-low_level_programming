@@ -14,7 +14,7 @@ int main(void)
 	int h = 'h';
 	int a = 'a';
 	int r = 'r';
-	
+
 	putchar(x);
 	putchar(p);
 	putchar(u);
@@ -24,5 +24,5 @@ int main(void)
 	putchar(a);
 	putchar(r);
 	putchar('\n');
-	return 0;
+	return (0);
 }
