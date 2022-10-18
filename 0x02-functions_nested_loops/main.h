@@ -11,3 +11,19 @@ int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
+
+/**
+ * print_alphabet - writes the alphabets, in lowercase, to stdout
+ * Return: Always return 0 (Success)
+ */
+void print_alphabet(void)
+{
+	int alph = 'a';
+
+	while (alph <= 'z')
+	{
+		_putchar(alph);
+		alph++;
+	}
+	_putchar('\n');
+}
