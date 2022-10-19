@@ -44,3 +44,9 @@ int _isalpha(int c);
  * Return: 0 success
  */
 int print_sign(int n);
+
+/**
+ * _abs - computs absolute number value of an integer
+ * Return: 0 success
+ */
+int _abs(int n);
