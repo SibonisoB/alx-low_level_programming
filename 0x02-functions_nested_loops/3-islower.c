@@ -19,13 +19,14 @@ int _islower(int c)
 		}
 		alph++;
 	}
-	
+
 	while (alph <= 'z')
 	{
 		if (chk != alph)
 		{
 			_putchar('0');
 		}
+		alph++;
 	}
 	return (0);
 }
