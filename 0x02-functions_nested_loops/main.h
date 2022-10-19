@@ -11,6 +11,12 @@ int _putchar(char c);
 
 /**
  * print_alphabet - writes the alphabets, in lowercase, to stdout
- * Return: Always return 0 (Success)
+ * Return: Always void 0 (Success)
  */
 void print_alphabet(void);
+
+/**
+ * print_alphabet_x10 - print the alphabets 10 times in lowercase
+ *Return: Always void 0 (Success)
+ */
+void print_alphabet_x10(void);
