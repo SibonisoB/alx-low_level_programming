@@ -50,3 +50,9 @@ int print_sign(int n);
  * Return: 0 success
  */
 int _abs(int n);
+
+/**
+ * _last_digit - print the last digit of a number
+ * Return: 0 success
+ */
+int print_last_digit(int n);
