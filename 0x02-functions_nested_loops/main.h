@@ -56,3 +56,10 @@ int _abs(int n);
  * Return: 0 success
  */
 int print_last_digit(int n);
+
+/**
+ * main - print every minute of the day
+ *
+ * Return: always 0
+ */
+void jack_bauer(void);
