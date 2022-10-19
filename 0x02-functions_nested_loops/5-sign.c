@@ -8,6 +8,8 @@
  */
 int print_sign(int n)
 {
+	int ze = 0xff;
+
 	if (n > '0')
 	{
 		_putchar('+');
@@ -19,12 +21,11 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
-	
+
 	else
 	{
-		_putchar('0');
+		_putchar(ze);
 		return (0);
 	}
 	return (0);
 }
-	
