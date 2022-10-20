@@ -30,3 +30,10 @@ int _isdigit(int c);
  * @b: integer 2
  */
 int mul(int a, int b);
+
+/**
+ * print_numbers - pritns numbers from 0 to 9
+ *
+ * Return: 0 success
+ */
+void print_numbers(void);
