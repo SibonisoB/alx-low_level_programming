@@ -15,3 +15,11 @@ int _putchar(char c);
  * Return: on success 1.
  */
 int _isupper(int c);
+
+/**
+ * _isdigit - checks for a digit 0 throu 9
+ * @c: digit
+ *
+ * Return: Success 1.
+ */
+int _isdigit(int c);
