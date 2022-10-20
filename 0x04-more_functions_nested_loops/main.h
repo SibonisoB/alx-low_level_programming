@@ -23,3 +23,10 @@ int _isupper(int c);
  * Return: Success 1.
  */
 int _isdigit(int c);
+
+/**
+ * mul - multiples two integers
+ * @a: integer 1
+ * @b: integer 2
+ */
+int mul(int a, int b);
