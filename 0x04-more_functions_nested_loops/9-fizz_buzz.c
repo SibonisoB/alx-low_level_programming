@@ -29,7 +29,7 @@ int main(void)
 				printf("FizzBuzz");
 			}
 
-			else	
+			else
 			{
 				printf("%d", n);
 			}
