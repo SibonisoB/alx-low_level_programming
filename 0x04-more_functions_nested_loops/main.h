@@ -56,3 +56,10 @@ void more_numbers(void);
  * Return: 0 success
  */
 void print_line(int n);
+
+/**
+ * print_diagonal - print diagonal
+ * @n: number of times the character \ is printed
+ * Return: 0 success
+ */
+void print_diagonal(int n);
