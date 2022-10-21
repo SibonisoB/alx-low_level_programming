@@ -8,23 +8,27 @@
 void more_numbers(void)
 {
 	int c;
+	int j;
 
-	for (c = '0'; c <= '1'; c++)
+	for (j = '0'; j <= '9'; j++)
 	{
-		int n;
-
-		for (n = '0'; n <= '9'; n++)
+		for (c = '0'; c <= '1'; c++)
 		{
-			if ((c >= '1') && (n <= '4'))
+			int n;
+
+			for (n = '0'; n <= '9'; n++)
 			{
-				_putchar(c);
+				if ((c >= '1') && (n <= '4'))
+				{
+					_putchar(c);
+				}
+				if ((c >= '1') && (n > '4'))
+				{
+					break;
+				}
+				_putchar(n);
 			}
-			if ((c >= '1') && (n > '4'))
-			{
-				break;
-			}
-			_putchar(n);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
