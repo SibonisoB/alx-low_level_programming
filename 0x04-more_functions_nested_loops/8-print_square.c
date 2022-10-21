@@ -12,11 +12,7 @@ void print_square(int size)
 
 	for (c = 1; c <= size; c++)
 	{
-		if (size == 0)
-		{
-			break;
-		}
-		else
+		if (size > 1)
 		{
 			int r;
 
@@ -27,5 +23,8 @@ void print_square(int size)
 		}
 		_putchar('\n');
 	}
-	/*_putchar('\n');*/
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
 }
