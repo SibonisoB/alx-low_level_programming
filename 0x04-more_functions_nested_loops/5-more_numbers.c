@@ -17,18 +17,23 @@ void more_numbers(void)
 		{
 			int i;
 
-			if (j == '0')
+			/*if (j == '0')*/
+			/*{*/
+			/*	for (i = '0'; i <= '9'; i++)*/
+				/*{*/
+					/*_putchar(i);*/
+				/*}*/
+			/*}*/
+			/*else*/
+			/*{*/
+			for (i = '0'; i <= '9'; i++)
 			{
-				for (i = '0'; i <= '9'; i++)
-				{
-					_putchar(i);
-				}
-			}
-			else
-			{
-				for (i = '0'; i <= '4'; i++)
+				if (j > '0')
 				{
 					_putchar(j);
+				}
+				else
+				{
 					_putchar(i);
 				}
 			}

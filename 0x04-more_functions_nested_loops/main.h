@@ -63,3 +63,8 @@ void print_line(int n);
  * Return: 0 success
  */
 void print_diagonal(int n);
+
+/**
+ * print_square - prints a square
+ */
+void print_square(int size);
