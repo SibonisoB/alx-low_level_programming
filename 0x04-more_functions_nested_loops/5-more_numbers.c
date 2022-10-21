@@ -7,19 +7,32 @@
  */
 void more_numbers(void)
 {
-	/*int j;*/
+	int c;
 
-	/*for (j = 0; j <= 9; j++)*/
-	/*{*/
-		int i = '0';
-		int c = 9 + 5;
+	for (c = '0'; c <= '9'; c++)
+	{
+		int j;
 
-		while (i <= c)
+		for (j = '0'; j <= '1'; j++)
 		{
-			_putchar(i);
-			i++;
+			int i;
+
+			if (j == '0')
+			{
+				for (i = '0'; i <= '9'; i++)
+				{
+					_putchar(i);
+				}
+			}
+			else
+			{
+				for (i = '0'; i <= '4'; i++)
+				{
+					_putchar(j);
+					_putchar(i);
+				}
+			}
 		}
 		_putchar('\n');
-	/*}*/
-	/*_putchar('\n');*/
+	}
 }
