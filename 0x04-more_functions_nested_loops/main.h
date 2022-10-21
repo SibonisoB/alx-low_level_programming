@@ -48,3 +48,11 @@ void print_most_numbers(void);
  * more_numbers - print numbers 0 to 14 ten times
  */
 void more_numbers(void);
+
+/**
+ * print_line - prints a stright line
+ * @n: number of times _ is printed
+ *
+ * Return: 0 success
+ */
+void print_line(int n);
