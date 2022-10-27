@@ -17,3 +17,10 @@ int _putchar(char c);
  * Return: returns a pointer to the resulting dest string
  */
 char *_strcat(char *dest, char *src);
+
+/**
+ * _strncat - conctenates two strings using n bytes from src
+ * @*dest: string input number 1
+ * @*src: second string input
+ */
+char *_strncat(char *dest, char *src, int n);
