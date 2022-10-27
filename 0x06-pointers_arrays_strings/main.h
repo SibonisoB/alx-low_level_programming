@@ -34,3 +34,10 @@ char *_strncat(char *dest, char *src, int n);
  * Return: string copy
  */
 char *_strncpy(char *dest, char *src, int n);
+
+/**
+ * _strcmp - compares two strings
+ * @s1: string number 1
+ * @s2: string number 2
+ */
+int _strcmp(char *s1, char *s2);
