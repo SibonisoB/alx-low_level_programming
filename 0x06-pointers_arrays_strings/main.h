@@ -24,3 +24,13 @@ char *_strcat(char *dest, char *src);
  * @*src: second string input
  */
 char *_strncat(char *dest, char *src, int n);
+
+/**
+ * _strncpy - copies a string
+ * @dest: string 1
+ * @src: string 2
+ * @n: n bytes from string 2
+ *
+ * Return: string copy
+ */
+char *_strncpy(char *dest, char *src, int n);
