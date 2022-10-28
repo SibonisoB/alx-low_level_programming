@@ -61,3 +61,10 @@ char string_toupper(char *);
  * leet - ecodes a string to 1337
  */
 char *leet(char *);
+
+/**
+ * cap_string - Capitalizes all words of a string
+ *
+ * Return: 0 success
+ */
+char *cap_string(char *);
