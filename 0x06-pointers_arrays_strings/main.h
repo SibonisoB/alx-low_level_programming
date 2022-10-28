@@ -56,3 +56,8 @@ void reverse_array(int *a, int n);
  * 
  */
 char string_toupper(char *);
+
+/**
+ * leet - ecodes a string to 1337
+ */
+char *leet(char *);
