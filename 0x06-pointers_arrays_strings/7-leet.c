@@ -24,5 +24,6 @@ char *leet(char *s)
 			}
 		}
 	}
+	/*_putchar('\n');*/
 	return (0);
 }
