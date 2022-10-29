@@ -57,3 +57,11 @@ void print_rev(char *s);
  * Return: every other character
  */
 void puts2(char *str);
+
+/**
+ * puts_half - prints half of a string
+ * @s: string
+ *
+ * Return: nothing
+ */
+void puts_half(char *str);
