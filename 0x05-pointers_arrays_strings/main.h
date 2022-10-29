@@ -73,3 +73,12 @@ void puts_half(char *str);
  * Return: nothing
  */
 void print_array(int *a, int n);
+
+/**
+ * strcpy - copies a string into another
+ * @dest: buffer
+ * @src: string
+ *
+ * Return: pointer to dest
+ */
+char *_strcpy(char *dest, char *src);
