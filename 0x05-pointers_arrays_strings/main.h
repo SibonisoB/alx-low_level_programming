@@ -49,3 +49,11 @@ void _puts(char *str);
  * Return: reverse string
  */
 void print_rev(char *s);
+
+/**
+ * puts2 - prints every other character of a string
+ * @str: string
+ *
+ * Return: every other character
+ */
+void puts2(char *str);
