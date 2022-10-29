@@ -16,3 +16,12 @@ int _putchar(char c);
  * Return: nothing
  */
 void reset_to_98(int *n);
+
+/**
+ * swap_int - swaps the values of two integers
+ * @a: integer one
+ * @b: integer two
+ *
+ * Return: nothing
+ */
+void swap_int(int *a, int *b);
