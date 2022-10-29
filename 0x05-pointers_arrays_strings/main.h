@@ -33,3 +33,11 @@ void swap_int(int *a, int *b);
  * Return: 0 success
  */
 int _strlen(char *s);
+
+/**
+ * _puts - prints string s to stdout
+ * @str: string
+ *
+ * Return: 1 is returned if successful and EOF or error if not
+ */
+void _puts(char *str);
