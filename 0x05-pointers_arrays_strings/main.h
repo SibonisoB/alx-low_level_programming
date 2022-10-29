@@ -41,3 +41,11 @@ int _strlen(char *s);
  * Return: 1 is returned if successful and EOF or error if not
  */
 void _puts(char *str);
+
+/**
+ * print_rev - prints a string in reverse
+ * @s: string
+ *
+ * Return: reverse string
+ */
+void print_rev(char *s);
