@@ -65,3 +65,11 @@ void puts2(char *str);
  * Return: nothing
  */
 void puts_half(char *str);
+
+/**
+ * print_array - prints n lements of an array
+ * @n: size of the array
+ *
+ * Return: nothing
+ */
+void print_array(int *a, int n);
