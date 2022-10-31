@@ -19,7 +19,7 @@ char *_strchr(char *s, char c)
 		{
 			for (i = j; s[i] != '\0'; i++)
 			{
-				_putchar(s[i]);
+				_putchar (s[i]);
 			}
 			break;
 		}

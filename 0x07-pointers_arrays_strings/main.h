@@ -27,3 +27,13 @@ char *_memset(char *s, char b, unsigned int n);
  * Return: pointer to first occurrence of c or NULL if charcter not found
  */
 char *_strchr(char *s, char c);
+
+/**
+ * _strspn - gets length of a prefix substring
+ * @s: string
+ * @accept: substring
+ *
+ * Return: number of bytes in s which consit of only 
+ * of bytes from accept
+ */
+unsigned int _strspn(char *s, char *accept);
