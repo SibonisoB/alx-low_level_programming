@@ -37,3 +37,13 @@ char *_strchr(char *s, char c);
  * of bytes from accept
  */
 unsigned int _strspn(char *s, char *accept);
+
+/**
+ * _strpbrk - searches a string for any of a set of bytes
+ * @s: string
+ * @accept: substring
+ *
+ * Return: pointer to the beginning of located substring or NULL
+ * if substring is not found
+ */
+char*_strpbrk(char *s, char *accept);
