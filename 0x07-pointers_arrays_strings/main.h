@@ -18,3 +18,12 @@ int _putchar(char c);
  * Return: Nothing.
  */
 char *_memset(char *s, char b, unsigned int n);
+
+/**
+ * _strchar - locates a character in a string
+ * @s: string
+ * @c: te character to be located
+ *
+ * Return: pointer to first occurrence of c or NULL if charcter not found
+ */
+char *_strchr(char *s, char c);
