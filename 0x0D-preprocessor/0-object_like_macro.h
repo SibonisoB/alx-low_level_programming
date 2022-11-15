@@ -1,15 +1,10 @@
 #include <unistd.h>
 
+/**
+ * SIZE - macro
+ * @1024: macro value
+ */
+#ifndef SIZE
 #define SIZE 1024
 
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to pint
- *
- * Return: On success 1.
- * On error, -1 is returnd, and errno is set appropriately
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+#endif
